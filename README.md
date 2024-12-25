@@ -26,6 +26,10 @@
         <p>Découvrez notre formation complète et gratuite sur le dropshipping.</p>
         <img src="URL_IMAGE_ACCUEIL" alt="Image attrayante">
     </section>
+    document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Merci pour votre inscription !');
+});
     
     <section id="about">
         <h2>À Propos de la Formation</h2>
